@@ -1,4 +1,4 @@
-# Linkedin jobs results graph
+# LinkedIn jobs results graph
 
 This is a Python program that finds data of posted jobs on LinkedIn, grabs that data, writes it into a cell, and creates a cool graph of the data.
 
@@ -8,7 +8,7 @@ This is a Python program that finds data of posted jobs on LinkedIn, grabs that 
 >
 >2- Change the 'LinkedInUsername' to a username you want to use to login  LinkedIn to scrap the data (example - LinkedInUsername = "user@gmail.com")
 >
->3- Put a password of the Linkedin account in the 'secrets.py' file in the repo.
+>3- Put a password of the LinkedIn account in the 'secrets.py' file in the repo.
 >
 >4- If needed change the URL of the LinkedIn job search and put a custom job search you want (Line 32 of 'LinkedInJobs.py')
 >
