@@ -1,0 +1,6 @@
+openpyxl==3.0.5
+pandas==1.1.4
+plotly==4.14.1
+python-dateutil==2.8.1
+selenium==3.141.0
+webdriver-manager==3.2.2
