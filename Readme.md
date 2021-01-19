@@ -1,6 +1,6 @@
 # LinkedIn jobs results graph
 
-This is a Python program that finds data of posted jobs on LinkedIn, grabs that data, writes it into a cell, and creates a cool graph of the data.
+This is a Python program that finds the number of posted jobs on LinkedIn (based in a customizable job search) grabs that data, writes it into a cell, and creates a cool graph of the data.
 
 ## Steps
 
@@ -10,10 +10,10 @@ This is a Python program that finds data of posted jobs on LinkedIn, grabs that 
 >
 >3- Put a password of the LinkedIn account in the 'secrets.py' file in the repo.
 >
->4- If needed change the URL of the LinkedIn job search and put a custom job search you want (Line 32 of 'LinkedInJobs.py')
+>4- If needed change the URL of the LinkedIn job search and put a custom job search you want (Line 32 of 'LinkedInJobs.py').
 >
 >5- Change the 'title_text' flag on line 77 of the code and use the title you want.
 >
->6- Execute the code! ('LinkedInJobs.py')
+>6- Execute the code! ('LinkedInJobs.py').
 >
->7- A 'JobsResultsGraph.html' file will be created automatically and will be opened in a Chrome Window (do not panic!)
+>7- A 'JobsResultsGraph.html' file will be created automatically and will be opened in a Chrome Window (do not panic!).
