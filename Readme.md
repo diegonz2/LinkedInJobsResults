@@ -12,7 +12,7 @@ This is a Python program that finds the number of posted jobs on LinkedIn (based
 >
 >4- If needed change the URL of the LinkedIn job search and put a custom job search you want (Line 30 of 'LinkedInJobs.py').
 >
->5- Change the 'title_text' flag on line 75 of the code and use the title you want.
+>5- Change the 'title_text' flag (line 75 of 'LinkedInJobs.py') and use the title you want.
 >
 >6- Execute the code! ('LinkedInJobs.py').
 >
