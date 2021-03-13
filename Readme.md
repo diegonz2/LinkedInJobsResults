@@ -10,10 +10,12 @@ This is a Python program that finds the number of posted jobs on LinkedIn (based
 >
 >3- Put a password of the LinkedIn account in the 'secrets.py' file in the repo.
 >
->4- If needed change the URL of the LinkedIn job search and put a custom job search you want (Line 30 of 'LinkedInJobs.py').
+>4- If needed change the URL of the LinkedIn job search and put a custom job search you want (driver.get("https://www.linkedin.com/.../keywords=cloud&location=Worldwide")).
 >
->5- Change the 'title_text' flag (line 75 of 'LinkedInJobs.py') and use the title you want.
+>5- Change the 'title_text' flag in the python main code and use the title you want.
 >
->6- Execute the code! ('LinkedInJobs.py').
+>6- Download the Chrome Driver (https://chromedriver.chromium.org/) and add the executable path to your environment variables 'PATH'
 >
->7- A 'JobsResultsGraph.html' file will be created automatically and will be opened in a Chrome Window (do not panic!).
+>7- Execute the code! ('LinkedInJobs.py').
+>
+>8- A 'JobsResultsGraph.html' file will be created automatically and will be opened in a Chrome Window (do not panic!).
