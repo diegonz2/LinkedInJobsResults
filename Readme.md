@@ -1,6 +1,6 @@
 # LinkedIn jobs results graph
 
-This is a Python program that finds the number of posted jobs on LinkedIn (based in a customizable job search) grabs that data, writes it into a table, and creates a cool graph of the data.
+This is a Python program that finds the number of posted jobs on LinkedIn (based on a customizable job search) grabs that data, writes it into a table, and creates a cool graph of the data.
 
 ## Steps
 
