@@ -31,7 +31,14 @@ driver.get("https://www.linkedin.com/jobs/search/?geoId=92000000&keywords=cloud&
 sleep(4)
 
 # Get the number of jobs as a String
-JobsStringText = driver.find_element_by_xpath("/html/body/div[7]/div[3]/div[3]/div/div/section[1]/div/header/div[1]/small").text
+try:
+    CloudJobsStringText = driver.find_element_by_xpath("/html/body/div[7]/div[3]/div[3]/div/div/section[1]/div/header/div[1]/small").text
+    print(CloudJobsStringText)
+
+except:
+    CloudJobsStringText = driver.find_element_by_xpath("/html/body/div[6]/div[3]/div[3]/div/div/section[1]/div/header/div[1]/small").text
+    print(CloudJobsStringText)
+
 
 # Try to get only the number of jobs without a space at the end (example: '450,345 ')
 number = ""
